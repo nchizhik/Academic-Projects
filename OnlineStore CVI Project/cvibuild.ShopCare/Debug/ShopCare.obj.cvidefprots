@@ -1,0 +1,64 @@
+[MyPolling]
+Class="Function"
+Prototype="void MyPolling();"
+
+[MyPolling2]
+Class="Function"
+Prototype="void MyPolling2();"
+
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[quit]
+Class="Function"
+Prototype="int quit(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Config]
+Class="Function"
+Prototype="int Config(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[SendString_dataupdate]
+Class="Function"
+Prototype="int SendString_dataupdate(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[RecTimer]
+Class="Function"
+Prototype="int RecTimer(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[RecTimer2]
+Class="Function"
+Prototype="int RecTimer2(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[manager_window]
+Class="Function"
+Prototype="void manager_window(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[print_stock]
+Class="Function"
+Prototype="int print_stock(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[print_value]
+Class="Function"
+Prototype="int print_value(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[update_stock_file]
+Class="Function"
+Prototype="void update_stock_file();"
+
+[exit_out_of_stock]
+Class="Function"
+Prototype="int exit_out_of_stock(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[stock_chart]
+Class="Function"
+Prototype="void stock_chart(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[Client_panel]
+Class="Function"
+Prototype="void Client_panel(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[show]
+Class="Function"
+Prototype="int show(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
